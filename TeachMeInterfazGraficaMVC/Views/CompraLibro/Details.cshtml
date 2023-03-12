@@ -1,0 +1,47 @@
+﻿@model TeachMeEntidadesDeNegocio.CompraLibro
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<hr />
+<hr />
+<h1>Detalles
+    <i class="bi bi-search"></i>
+</h1>
+<hr />
+<hr />
+<div>
+    <h4>CompraLibro</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Monto)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Monto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CredencialPago)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CredencialPago.NumeroTarjeta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Usuario)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Usuario.Nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Curso)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Curso.Categoria)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Modificar</a> |
+    <a asp-action="Index">Regresar a la lista</a>
+</div>

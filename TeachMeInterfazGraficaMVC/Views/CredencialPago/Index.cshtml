@@ -1,0 +1,188 @@
+﻿@model IEnumerable<TeachMeEntidadesDeNegocio.CredencialPago>
+
+@{
+    ViewData["Title"] = "Index";
+    int numPage = 1;
+    int numRegistros = 0;
+    int numRegistrosPorPage = 10;
+    int[] tops = { 10, 20, 50, 100, 500, 1000, 10000, -1 };
+    int topActual = Convert.ToInt32(ViewBag.Top);
+}
+
+<div class="container-fluid">
+
+    <hr />
+    <hr />
+    <h1>Credenciales de pago TeachMe SV 
+        <i class="bi bi-credit-card-2-back-fill"></i></h1>
+    <h4>Puedes buscar por: </h4>
+    <hr />
+    <hr />
+
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Index">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Numero de Tarjeta</label>
+                            <input type="text" class="form-control" name="NumeroTarjeta" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Marca</label>
+                            <input type="Email" class="form-control" name="Marca" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Pais</label>
+                            <input type="text" class="form-control" name="Pais" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">CVC</label>
+                            <input type="text" class="form-control" name="CVC" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Fecha de Creacion</label>
+                            <input type="text" class="form-control" name="FechaCreacion" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Fecha de Vencimiento</label>
+                            <input type="text" class="form-control" name="FechaVencimiento" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="control-label">Top</label>
+                            <select name="top_aux" class="form-control">
+                                @foreach (var item in tops)
+                                {
+                                    string strItem = item != -1 ? item.ToString() : "Todos";
+                                    if (item != topActual)
+                                    {
+                                        <option value="@item">@strItem</option>
+                                    }
+                                    else
+                                    {
+                                        <option selected value="@item">@strItem</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Buscar" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2" />
+                    <a asp-action="Create" class="btn btn-dark py-md-2 px-md-4 font-weight-semi-bold mt-2">Nueva registro</a>
+                </div>
+                <br />
+                <br />
+            </form>
+        </div>
+    </div>
+</div>
+
+<table class="table table-striped paginationjs ">
+    <thead>
+        <tr>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.NumeroTarjeta)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.Pais)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.CVC)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.FechaCreacion)
+            </th>
+            <th class="table-dark">
+                @Html.DisplayNameFor(model => model.FechaVencimiento)
+            </th>
+            <th class="table-dark"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr data-page="@numPage">
+                <td>
+                    @Html.DisplayFor(modelItem  => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumeroTarjeta)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Marca)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pais)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CVC)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaCreacion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaVencimiento)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Modificar", "Edit", new {  id=item.Id  }, new{@class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2"} ) |
+                    @Html.ActionLink("Ver más", "Details",  new {  id=item.Id  }, new{@class="btn btn-outline-dark py-md-2 px-md-4 font-weight-semi-bold mt-2"} ) |
+                    @Html.ActionLink("Eliminar", "Delete",  new {  id=item.Id  }, new{@class="btn btn-dark py-md-2 px-md-4 font-weight-semi-bold mt-2"} ) |
+                </td>
+            </tr>
+            numRegistros++;
+            if (numRegistros == numRegistrosPorPage)
+            {
+                numPage++;
+                numRegistros = 0;
+            }
+
+        }
+        @{
+            if (numRegistros == 0)
+            {
+                numPage--;
+            }
+        }
+
+    </tbody>
+</table>
+
+
+
+@if (numPage > 1)
+{
+    <div class="row" style="overflow:auto">
+        <div class="col-md-12">
+            <ul class="pagination paginationjs" data-numpage="@numPage" data-pageactive="1">
+                <li class="page-item" data-typepage="Previous"><a class="page-link" href="#">Previous</a></li>
+                @for (var i = 1; i <= numPage; i++)
+                {
+                    <li class="page-item" data-page="@i" data-typepage="Item"><a class="page-link" href="#">@i</a></li>
+                }
+                <li class="page-item" data-typepage="Next"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+}

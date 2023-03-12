@@ -1,0 +1,22 @@
+﻿@model IEnumerable<TeachMeEntidadesDeNegocio.Curso>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>¿Que deseas aprender hoy?</h1>
+
+@foreach (var curso in Model) {
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card" style="width: 18rem;">
+            <img src="@curso.Imagen" class="card-img-top" alt="@curso.Duracion">
+            <div class="card-body">
+              <h5 class="card-title">@curso.Nombre</h5>
+              <p class="card-text">@curso.Descripcion</p>
+              <a href="#" class="btn btn-primary">Vamos!</a>
+            </div>
+          </div>
+        </div>
+
+}
+

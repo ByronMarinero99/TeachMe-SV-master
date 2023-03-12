@@ -1,0 +1,44 @@
+﻿@model TeachMeEntidadesDeNegocio.Categoria
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<hr />
+<hr />
+<h1>Modificar
+    <i class="bi bi-pencil-square"></i>
+</h1>
+
+<h4>Categoria</h4>
+<hr />
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Clasificacion" class="control-label"></label>
+                <input asp-for="Clasificacion" class="form-control" />
+                <span asp-validation-for="Clasificacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Regresar a la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

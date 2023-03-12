@@ -1,0 +1,201 @@
+﻿@model IEnumerable<TeachMeEntidadesDeNegocio.Curso>
+
+@{
+    ViewData["Title"] = "Index";
+    int numPage = 1;
+    int numRegistros = 0;
+    int numRegistrosPorPage = 10;
+    int[] tops = { 10, 20, 50, 100, 500, 1000, 10000, -1 };
+    int topActual = Convert.ToInt32(ViewBag.Top);
+
+    List<TeachMeEntidadesDeNegocio.Categoria> Categorias = ViewBag.Categorias as
+            List<TeachMeEntidadesDeNegocio.Categoria>;
+    
+}
+
+
+
+<div class="container-fluid">
+
+    <hr />
+    <hr />
+    <h1>Cursos TeachMe SV
+        <i class="bi bi-camera-reels-fill"></i>
+    </h1>
+    <h4>Puedes buscar por: </h4>
+    <hr />
+    <hr />
+
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Index">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Nombre</label>
+                            <input type="text" class="form-control" name="nombre" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label"> Autor</label>
+                            <input type="text" class="form-control" name="Autor" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Descripcion</label>
+                            <input type="Email" class="form-control" name="Descripcion" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Duracion</label>
+                            <input type="text" class="form-control" name="Duracion" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Requisitos</label>
+                            <input type="text" class="form-control" name="Requisitos" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Fecha de Creacion</label>
+                            <input type="text" class="form-control" name="FechaCreacion" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Fecha de Actualizacion</label>
+                            <input type="text" class="form-control" name="FechaActualizacion" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Imagen</label>
+                            <input type="text" class="form-control" name="Imagen" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label">Categorias</label>
+                            <select name="IdAutores" class="form-control">
+                                <option selected value="0">SELECCIONAR</option>
+                                @foreach (var item in Categorias)
+                                {
+                                    <option value="@item.Id"> @item.Nombre </option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="control-label">Top</label>
+                            <select name="top_aux" class="form-control">
+                                @foreach (var item in tops)
+                                {
+                                    string strItem = item != -1 ? item.ToString() : "Todos";
+                                    if (item != topActual)
+                                    {
+                                        <option value="@item">@strItem</option>
+                                    }
+                                    else
+                                    {
+                                        <option selected value="@item">@strItem</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Buscar" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2" />
+                    <a asp-action="Create" class="btn btn-dark py-md-2 px-md-4 font-weight-semi-bold mt-2">Nuevo Curso</a>
+                </div>
+                <br />
+            </form>
+        </div>
+    </div>
+
+    <div class="text-center mb-5">
+        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;"><i class="bi bi-wrench-adjustable"></i> Cursos</h5>
+        <h1>Vista de cursos para mantenimiento</h1>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="rounded overflow-hidden mb-2" data-page="@numPage">
+                        <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                                <img class="img-fluid" src="@Html.DisplayFor(modelItem => item.Imagen)">
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="bi bi-bookmark-star-fill"></i> @Html.DisplayFor(modelItem => item.Categoria.Nombre) </small>
+                                <small class="m-0"><i class="bi bi-calendar-check"></i> @Html.DisplayFor(modelItem => item.FechaActualizacion) </small>
+                            </div>
+                            <small class="m-0"><i class="far fa-clock text-primary mr-2"></i> @Html.DisplayFor(modelItem => item.Duracion)</small>
+                            <h6 class="m-0"><i class="bi bi-person-video2"></i> @Html.DisplayFor(modelItem => item.Autor) </h6>
+                            <a href="/Curso/Details/@item.Id" class="h5">@Html.DisplayFor(modelItem => item.Nombre) </a>
+                            <div>
+                                <h6 class="m-0"><small><i class="bi bi-check-circle"></i> @Html.DisplayFor(modelItem => item.Descripcion)</small></h6>
+                                <h6 class="m-0"><small><i class="bi bi-check-circle"></i> @Html.DisplayFor(modelItem => item.Requisitos)</small></h6>
+                            </div>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0">Antes: <del>@Html.DisplayFor(modelItem => item.PrecioAnterior)</del> </h6>
+                                    <h5 class="m-0"><i class="bi bi-coin"></i> @Html.DisplayFor(modelItem => item.Precio)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                        <a href="/Curso/Edit/@item.Id" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2"><i class="bi bi-wrench-adjustable"></i> Modificar</a>
+                        <a href="/Curso/Delete/@item.Id" class="btn btn-dark py-md-2 px-md-4 font-weight-semi-bold mt-2"><i class="bi bi-trash3"></i> Eliminar</a>
+                        </div>
+                    </div>
+
+                </div>
+                    numRegistros++;
+                    if (numRegistros == numRegistrosPorPage)
+                    {
+                        numPage++;
+                        numRegistros = 0;
+                    }
+                }
+                
+            </div>
+        </div>
+    </div>
+
+        @{
+        if (numRegistros == 0)
+        {
+            numPage--;
+        }
+        }
+</div>
+
+
+
+@if (numPage > 1)
+{
+    <div class="row" style="overflow:auto">
+        <div class="col-md-12">
+            <ul class="pagination paginationjs" data-numpage="@numPage" data-pageactive="1">
+                <li class="page-item" data-typepage="Previous"><a class="page-link" href="#">Previous</a></li>
+                @for (var i = 1; i <= numPage; i++)
+                {
+                    <li class="page-item" data-page="@i" data-typepage="Item"><a class="page-link" href="#">@i</a></li>
+                }
+                <li class="page-item" data-typepage="Next"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+}

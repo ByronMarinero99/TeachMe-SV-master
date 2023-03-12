@@ -1,0 +1,66 @@
+﻿@model TeachMeEntidadesDeNegocio.Compra
+
+@{
+    ViewData["Title"] = "Create";
+    List<TeachMeEntidadesDeNegocio.Usuario> estudiantes = ViewBag.Usuarios as
+           List<TeachMeEntidadesDeNegocio.Usuario>;
+
+    List<TeachMeEntidadesDeNegocio.Curso> cursos = ViewBag.Cursos as
+        List<TeachMeEntidadesDeNegocio.Curso>;
+
+    List<TeachMeEntidadesDeNegocio.CredencialPago> CredencialPagos = ViewBag.CredencialPagos as
+        List<TeachMeEntidadesDeNegocio.CredencialPago>;
+}
+
+<hr />
+<hr />
+<h1>Agregar
+    <i class="bi bi-database-fill-add"></i>
+</h1>
+
+<h4>Compra</h4>
+<hr />
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Monto" class="control-label"></label>
+                <input asp-for="Monto" class="form-control" />
+                <span asp-validation-for="Monto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaCompra" class="control-label"></label>
+                <input asp-for="FechaCompra" class="form-control" type="date"/>
+                <span asp-validation-for="FechaCompra" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdUsuario" class="control-label"></label>
+                <input asp-for="IdUsuario" class="form-control"  />
+                <span asp-validation-for="IdUsuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdCurso" class="control-label"></label>
+                <input asp-for="IdCurso" class="form-control"  />
+                <span asp-validation-for="IdCurso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdCredencialesPagos" class="control-label"></label>
+                <input asp-for="IdCredencialesPagos" class="form-control"  />
+                <span asp-validation-for="IdCredencialesPagos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+        <a asp-action="Index">Regresar a la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
