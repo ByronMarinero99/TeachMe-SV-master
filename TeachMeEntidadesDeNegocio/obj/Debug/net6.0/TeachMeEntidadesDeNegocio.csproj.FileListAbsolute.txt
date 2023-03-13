@@ -58,3 +58,15 @@ C:\Users\Byron\Desktop\TeachMe-SV-master\TeachMe-SV-master\TeachMeEntidadesDeNeg
 C:\Users\Byron\Desktop\TeachMe-SV-master\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\refint\TeachMeEntidadesDeNegocio.dll
 C:\Users\Byron\Desktop\TeachMe-SV-master\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\TeachMeEntidadesDeNegocio.pdb
 C:\Users\Byron\Desktop\TeachMe-SV-master\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\ref\TeachMeEntidadesDeNegocio.dll
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\bin\Debug\net6.0\TeachMeEntidadesDeNegocio.deps.json
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\bin\Debug\net6.0\TeachMeEntidadesDeNegocio.dll
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\bin\Debug\net6.0\TeachMeEntidadesDeNegocio.pdb
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\TeachMeEntidadesDeNegocio.csproj.AssemblyReference.cache
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\TeachMeEntidadesDeNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\TeachMeEntidadesDeNegocio.AssemblyInfoInputs.cache
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\TeachMeEntidadesDeNegocio.AssemblyInfo.cs
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\TeachMeEntidadesDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\TeachMeEntidadesDeNegocio.dll
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\refint\TeachMeEntidadesDeNegocio.dll
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\TeachMeEntidadesDeNegocio.pdb
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeEntidadesDeNegocio\obj\Debug\net6.0\ref\TeachMeEntidadesDeNegocio.dll

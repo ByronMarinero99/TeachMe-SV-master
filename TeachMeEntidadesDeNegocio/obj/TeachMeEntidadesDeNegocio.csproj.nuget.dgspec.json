@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Byron\\Desktop\\TeachMe-SV-master\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {}
+    "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Byron\\Desktop\\TeachMe-SV-master\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+    "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Byron\\Desktop\\TeachMe-SV-master\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
         "projectName": "TeachMeEntidadesDeNegocio",
-        "projectPath": "C:\\Users\\Byron\\Desktop\\TeachMe-SV-master\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
-        "packagesPath": "C:\\Users\\Byron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Byron\\Desktop\\TeachMe-SV-master\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\obj\\",
+        "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
+        "packagesPath": "C:\\Users\\byron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Byron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\byron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
