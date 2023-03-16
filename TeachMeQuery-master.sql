@@ -8,6 +8,24 @@ Nombre NVARCHAR (50) NOT NULL,
 Clasificacion NVARCHAR (50) NOT NULL,
 PRIMARY KEY (Id)
 );
+CREATE TABLE Blogs(
+Id INT NOT NULL IDENTITY(1,1),
+Autor  nvarchar(100) not null,
+IdCategorias INT NOT NULL,
+Nombre NVARCHAR (100) NOT NULL,
+Descripcion NVARCHAR (200) NOT NULL,
+Contenido NVARCHAR (4000) NOT NULL,
+FechaCreacion NVARCHAR (20) NOT NULL,
+ImagenDescripcion NVARCHAR (500) NOT NULL,
+ImagenContenido NVARCHAR (500) NOT NULL,
+FOREIGN KEY (IdCategorias) REFERENCES Categorias (Id),
+PRIMARY KEY (Id)
+);
+
+insert into Blogs (Autor, IdCategorias, Nombre, Descripcion, Contenido, FechaCreacion, ImagenDescripcion, ImagenContenido) 
+values ('Byron Marinero', '1', 'Trading en la zona','mejora tu estrategia','aqui va el contenido','15-03-2023','https://m.media-amazon.com/images/I/51A45j8MO-L._SY346_.jpg','https://d31dn7nfpuwjnm.cloudfront.net/images/valoraciones/0041/0542/Trading_foro.png?1606858162');
+
+GO
 CREATE TABLE Cursos(
 Id INT NOT NULL IDENTITY(1,1),
 Autor  nvarchar(100) not null,

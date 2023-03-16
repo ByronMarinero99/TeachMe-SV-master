@@ -1,0 +1,139 @@
+﻿@model TeachMeEntidadesDeNegocio.Blog
+
+@{
+    ViewData["Title"] = "Details";
+
+    List<TeachMeEntidadesDeNegocio.Categoria> Categorias = ViewBag.Categorias as
+        List<TeachMeEntidadesDeNegocio.Categoria>;
+}
+@*
+<h1>Details</h1>
+
+<div>
+    <h4>Blog</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Autor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Autor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Contenido)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Contenido)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaCreacion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FechaCreacion)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ImagenDescripcion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ImagenDescripcion)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ImagenContenido)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ImagenContenido)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Categoria)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Categoria.Clasificacion)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Regresar a la lista</a>
+</div>*@
+
+<div class="container-fluid page-header" style="margin-bottom: 90px;">
+    <div class="container">
+        <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
+            <h3 class="display-4 text-white text-uppercase">Blogs</h3>
+            <div class="d-inline-flex text-white">
+                <p class="m-0 text-uppercase"><a class="text-white" href="">Inicio</a></p>
+                <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                <p class="m-0 text-uppercase">Blogs</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="mb-5">
+                    <h6 class="text-primary mb-3">@Html.DisplayFor(model => model.FechaCreacion)</h6>
+                    <h1 class="mb-5">@Html.DisplayFor(model => model.Nombre)</h1>
+                    <img class="img-fluid rounded w-100 mb-4" src="@Html.DisplayFor(model => model.ImagenContenido)" alt="Image" style="width: 100%; height: 500px;">
+                    <p>
+                        @Html.DisplayFor(model => model.Contenido)
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-5 mt-lg-0">
+                <!-- Author Bio -->
+                <div class="d-flex flex-column text-center bg-dark rounded mb-5 py-5 px-4">
+                    <img src="~/img/user.jpg" class="img-fluid rounded-circle mx-auto mb-3" style="width: 100px;">
+                        <h3 class="text-primary mb-3">@Html.DisplayFor(model => model.Autor)</h3>
+                    <p class="text-white m-0">
+                        @Html.DisplayFor(model => model.Descripcion)
+
+                    </p>
+                </div>
+
+                <!-- Category List -->
+                <div class="mb-5">
+                    <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Categorias</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a class="nav-link" asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index" class="text-decoration-none h6 m-0">Cursos</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a class="nav-link" asp-area="" asp-area="" asp-controller="LibroEstudiante" asp-action="Index" class="text-decoration-none h6 m-0">Libros</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a <a class="dropdown-item" asp-area="" asp-area="" asp-controller="Rol" asp-action="Index" class="text-decoration-none h6 m-0">Quienes somos</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <a class="dropdown-item" asp-area="" asp-area="" asp-controller="Libros" asp-action="Index" class="text-decoration-none h6 m-0">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+               
+                <div class="mb-5">
+                    <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Nube de enlaces externos</h3>
+                    <div class="d-flex flex-wrap m-n1">
+                        <a href="" class="btn btn-outline-primary m-1">Software</a>
+                        <a href="" class="btn btn-outline-primary m-1">Diseno grafico</a>
+                        <a href="" class="btn btn-outline-primary m-1">Marketing</a>
+                        <a href="" class="btn btn-outline-primary m-1">Otros</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

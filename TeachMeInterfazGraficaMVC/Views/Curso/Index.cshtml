@@ -132,9 +132,10 @@
                 @foreach (var item in Model)
                 {
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2" data-page="@numPage">
-                        <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                                <img class="img-fluid" src="@Html.DisplayFor(modelItem => item.Imagen)">
+                        <div class="rounded overflow-hidden mb-2" data-page="@numPage" >
+                            <div class="cat-item position-relative overflow-hidden rounded mb-2" style="width: 100%; height: 200px;">
+                                <img class="img-fluid" src="@Html.DisplayFor(modelItem => item.Imagen)"
+                                     alt="Esta parte contiene la imagen del curso" width="568" height="320">
                         </div>
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">

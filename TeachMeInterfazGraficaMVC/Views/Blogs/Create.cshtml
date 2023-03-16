@@ -1,0 +1,79 @@
+﻿@model TeachMeEntidadesDeNegocio.Blog
+
+@{
+    ViewData["Title"] = "Create";
+    List<TeachMeEntidadesDeNegocio.Categoria> Categorias = ViewBag.Categorias as
+        List<TeachMeEntidadesDeNegocio.Categoria>;
+}
+
+<hr />
+<hr />
+<h1>
+    Agregar
+    <i class="bi bi-database-fill-add"></i>
+</h1>
+
+<h4>Cursos</h4>
+<hr />
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Autor" class="control-label"></label>
+                <input asp-for="Autor" class="form-control" />
+                <span asp-validation-for="Autor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contenido" class="control-label"></label>
+                <input asp-for="Contenido" class="form-control" />
+                <span asp-validation-for="Contenido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaCreacion" class="control-label"></label>
+                <input asp-for="FechaCreacion" class="form-control" />
+                <span asp-validation-for="FechaCreacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImagenDescripcion" class="control-label"></label>
+                <input asp-for="ImagenDescripcion" class="form-control" />
+                <span asp-validation-for="ImagenDescripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImagenContenido" class="control-label"></label>
+                <input asp-for="ImagenContenido" class="form-control" />
+                <span asp-validation-for="ImagenContenido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdCategorias" class="control-label"></label>
+                <select asp-for="IdCategorias" class="form-control">
+                    <option selected value="0">SELECCIONAR</option>
+                    @foreach (var item in Categorias)
+                    {
+                        <option value="@item.Id"> @item.Nombre</option>
+                    }
+                </select>
+                <span asp-validation-for="IdCategorias" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Regresar a la lista </a>
+</div>
+

@@ -1654,3 +1654,4 @@ C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeInterfazGraficaMVC\o
 C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeInterfazGraficaMVC\obj\Debug\net6.0\TeachMeInterfazGraficaMVC.pdb
 C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeInterfazGraficaMVC\obj\Debug\net6.0\TeachMeInterfazGraficaMVC.genruntimeconfig.cache
 C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeInterfazGraficaMVC\obj\Debug\net6.0\ref\TeachMeInterfazGraficaMVC.dll
+C:\Users\Byron\Desktop\TeachMe-SV-master\TeachMe-SV-master\TeachMeInterfazGraficaMVC\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll

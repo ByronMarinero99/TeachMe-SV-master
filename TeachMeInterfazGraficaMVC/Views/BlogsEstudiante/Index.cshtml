@@ -1,0 +1,114 @@
+﻿@model IEnumerable<TeachMeEntidadesDeNegocio.Blog>
+
+@{
+    ViewData["Title"] = "Index";
+    int numPage = 1;
+    int numRegistros = 0;
+    int numRegistrosPorPage = 10;
+    int[] tops = { 10, 20, 50, 100, 500, 1000, 10000, -1 };
+    int topActual = Convert.ToInt32(ViewBag.Top);
+
+    List<TeachMeEntidadesDeNegocio.Categoria> Categorias = ViewBag.Categorias as
+            List<TeachMeEntidadesDeNegocio.Categoria>;
+}
+
+<hr />
+<div class="text-center mb-5">
+    <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;"><i class="bi bi-wechat"></i> Blogs</h5>
+    <h1>Lo mas reciente de nuestros blogs</h1>
+</div>
+<hr />
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Index">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="nombre" placeholder="Buscar por nombre" />
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <select name="top_aux" class="form-control">
+                            @foreach (var item in tops)
+                            {
+                                string strItem = item != -1 ? item.ToString() : "Todos";
+                                if (item != topActual)
+                                {
+                                    <option value="@item">@strItem</option>
+                                }
+                                else
+                                {
+                                    <option selected value="@item">@strItem</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <input type="submit" value="Buscar" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!-- AQUI EMPIEZA LA SECCION DE BLOGS -->
+<div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+        <div class="row pb-3">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 mb-4">
+                    <div class="blog-item position-relative overflow-hidden rounded mb-2" style="width: 100%; height: 420px;">
+                        <img class="img-fluid" src="@Html.DisplayFor(modelItem => item.ImagenDescripcion)">
+                        <a class="blog-overlay text-decoration-none" href="/BlogsEstudiante/Details/@item.Id">
+                            <i class="bi bi-bookmark-star-fill"></i> @Html.DisplayFor(modelItem => item.Categoria.Nombre)
+                            <h5 class="text-white mb-3">@Html.DisplayFor(modelItem => item.Nombre)</h5>
+                            <h6 class="m-0 text-white mb-3"><small><i class="bi bi-people-fill"></i> @Html.DisplayFor(modelItem => item.Autor)</small></h6>
+                            <p class="text-primary m-0">@Html.DisplayFor(modelItem => item.FechaCreacion)</p>
+                        </a>
+                    </div>
+                </div>
+                numRegistros++;
+                if (numRegistros == numRegistrosPorPage)
+                {
+                    numPage++;
+                    numRegistros = 0;
+                }
+            }
+        </div>
+    </div>
+</div>
+<!-- AQUI TERMINA LA SECCION DE BLOGS -->
+</div>
+
+@{
+    if (numRegistros == 0)
+    {
+        numPage--;
+    }
+}
+
+
+
+@if (numPage > 1)
+{
+    <div class="row" style="overflow:auto">
+        <div class="col-md-12">
+            <ul class="pagination paginationjs" data-numpage="@numPage" data-pageactive="1">
+                <li class="page-item" data-typepage="Previous"><a class="page-link" href="#">Previous</a></li>
+                @for (var i = 1; i <= numPage; i++)
+                {
+                    <li class="page-item" data-page="@i" data-typepage="Item"><a class="page-link" href="#">@i</a></li>
+                }
+                <li class="page-item" data-typepage="Next"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+}
+
