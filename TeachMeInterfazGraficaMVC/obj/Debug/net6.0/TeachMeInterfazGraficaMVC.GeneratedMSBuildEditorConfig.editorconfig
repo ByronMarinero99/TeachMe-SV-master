@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Byron\Desktop\TeachMe-SV-master\TeachMe-SV-master\TeachMeInterfazGraficaMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Byron/Desktop/TeachMe-SV-master/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/BlogsEstudiante/Blog.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NFc3R1ZGlhbnRlXEJsb2cuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Byron/Desktop/TeachMe-SV-master/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/BlogsEstudiante/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NFc3R1ZGlhbnRlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -154,6 +150,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Byron/Desktop/TeachMe-SV-master/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Curso/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Byron/Desktop/TeachMe-SV-master/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Byron/Desktop/TeachMe-SV-master/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Home/Index.cshtml]

@@ -2,10 +2,16 @@
 
 @{
     ViewData["Title"] = "Details";
+    int numPage = 1;
+    int numRegistros = 0;
+    int numRegistrosPorPage = 10;
+    int[] tops = { 10, 20, 50, 100, 500, 1000, 10000, -1 };
+    int topActual = Convert.ToInt32(ViewBag.Top);
 
     List<TeachMeEntidadesDeNegocio.Categoria> Categorias = ViewBag.Categorias as
-        List<TeachMeEntidadesDeNegocio.Categoria>;
+            List<TeachMeEntidadesDeNegocio.Categoria>;
 }
+
 @*
 <h1>Details</h1>
 
@@ -95,17 +101,17 @@
             </div>
 
             <div class="col-lg-4 mt-5 mt-lg-0">
-                <!-- Author Bio -->
+                <!-- Nombre del autor -->
                 <div class="d-flex flex-column text-center bg-dark rounded mb-5 py-5 px-4">
                     <img src="~/img/user.jpg" class="img-fluid rounded-circle mx-auto mb-3" style="width: 100px;">
-                        <h3 class="text-primary mb-3">@Html.DisplayFor(model => model.Autor)</h3>
+                    <h3 class="text-primary mb-3">@Html.DisplayFor(model => model.Autor)</h3>
                     <p class="text-white m-0">
                         @Html.DisplayFor(model => model.Descripcion)
 
                     </p>
                 </div>
 
-                <!-- Category List -->
+                <!-- Lista de categoria -->
                 <div class="mb-5">
                     <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Categorias</h3>
                     <ul class="list-group list-group-flush">
@@ -123,7 +129,7 @@
                         </li>
                     </ul>
                 </div>
-               
+
                 <div class="mb-5">
                     <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Nube de enlaces externos</h3>
                     <div class="d-flex flex-wrap m-n1">
@@ -133,6 +139,8 @@
                         <a href="" class="btn btn-outline-primary m-1">Otros</a>
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>

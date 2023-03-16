@@ -60,11 +60,12 @@
                 </div>
                 <p>
                     TeachMe es una plataforma para que puedas brindarte la mejor forma de aprender y de forma económica
-                    por medio de cursos y libros super vergones para que puedas divertirte aprendiendo. Esta plataforma
+                    por medio de cursos y libros super chivos para que puedas divertirte aprendiendo. Esta plataforma
                     esta enfocada para todo tipo de personas que ya están aburridos de la enseñanza tradicional para que
                     pueda dar un salto en su carrera profesional.
                 </p>
-                <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver mas</a>
+                <a  asp-area="" asp-area="" asp-controller="Home" asp-action="About"
+                class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver mas</a>
             </div>
         </div>
     </div>
@@ -81,7 +82,8 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="cat-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/cat-1.jpg" alt="">
-                    <a class="cat-overlay text-white text-decoration-none" href="">
+                    <a class="cat-overlay text-white text-decoration-none" 
+                     asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index">
                         <h4 class="text-white font-weight-medium">Diseño web</h4>
                         <span>Cursos</span>
                     </a>
@@ -90,7 +92,8 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="cat-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/cat-2.jpg" alt="">
-                    <a class="cat-overlay text-white text-decoration-none" href="">
+                    <a class="cat-overlay text-white text-decoration-none" 
+                     asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index">
                         <h4 class="text-white font-weight-medium">Desarrollo de apps</h4>
                         <span>Cursos</span>
                     </a>
@@ -99,7 +102,8 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="cat-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/cat-3.jpg" alt="">
-                    <a class="cat-overlay text-white text-decoration-none" href="">
+                    <a class="cat-overlay text-white text-decoration-none" 
+                    asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index">
                         <h4 class="text-white font-weight-medium">Diseño grafico</h4>
                         <span>Cursos</span>
                     </a>
@@ -108,7 +112,8 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="cat-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/cat-4.jpg" alt="">
-                    <a class="cat-overlay text-white text-decoration-none" href="">
+                    <a class="cat-overlay text-white text-decoration-none" 
+                     asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index">
                         <h4 class="text-white font-weight-medium">Libros </h4>
                         <span>Ver categorias</span>
                     </a>
@@ -117,7 +122,8 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="cat-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/cat-5.jpg" alt="">
-                    <a class="cat-overlay text-white text-decoration-none" href="">
+                    <a class="cat-overlay text-white text-decoration-none" 
+                     asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index">
                         <h4 class="text-white font-weight-medium">Marketing</h4>
                         <span>Cursos</span>
                     </a>
@@ -126,7 +132,8 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="cat-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/cat-6.jpg" alt="">
-                    <a class="cat-overlay text-white text-decoration-none" href="">
+                    <a class="cat-overlay text-white text-decoration-none" 
+                     asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index">
                         <h4 class="text-white font-weight-medium">Mindfullness</h4>
                         <span>Cursos</span>
                     </a>
@@ -135,7 +142,8 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="cat-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/cat-7.jpg" alt="">
-                    <a class="cat-overlay text-white text-decoration-none" href="">
+                    <a class="cat-overlay text-white text-decoration-none" 
+                     asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index">
                         <h4 class="text-white font-weight-medium">StartUps</h4>
                         <span>Cursos</span>
                     </a>
@@ -144,7 +152,8 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="cat-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/cat-8.jpg" alt="">
-                    <a class="cat-overlay text-white text-decoration-none" href="">
+                    <a class="cat-overlay text-white text-decoration-none" 
+                    asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index">
                         <h4 class="text-white font-weight-medium">Indiomas</h4>
                         <span>Cursos</span>
                     </a>
@@ -164,17 +173,26 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="rounded overflow-hidden mb-2">
-                    <img class="img-fluid" src="~/img/course-1.jpg" alt="">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2" style="width: 100%; height: 200px;">
+                        <img class="img-fluid" src="~/img/course-1.jpg"
+                             alt="Esta parte contiene la imagen del curso" width="568" height="320">
+                    </div>
                     <div class="bg-secondary p-4">
                         <div class="d-flex justify-content-between mb-3">
-                            <small class="m-0"><i class="fa fa-users text-primary mr-2"></i></small>
-                            <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
+                            <small class="m-0"><i class="bi bi-bookmark-star-fill"></i> Software </small>
+                            <small class="m-0"><i class="bi bi-calendar-check"></i> 16/03/2023 </small>
                         </div>
-                        <a class="h5" href="">Diseño y desarrollo web de cero a avanzado (HTML CSS JS)</a>
+                        <small class="m-0"><i class="far fa-clock text-primary mr-2"></i> 9 horas</small>
+                        <h6 class="m-0"><i class="bi bi-person-video2"></i> Daniel Fernando </h6>
+                        <a class="nav-link" asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index" class="h5">Diseño y desarrollo web de cero a avanzado (HTML CSS JS) </a>
+                        <div>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Aprende este lengua de programacio de cero a profesional</small></h6>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Sin saberes previos</small></h6>
+                        </div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex justify-content-between">
-                                <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small></small></h6>
-                                <h5 class="m-0">$18.99</h5>
+                                <h6 class="m-0">Antes: <del>45.99$</del> </h6>
+                                <h5 class="m-0"><i class="bi bi-coin"></i> 255.99$</h5>
                             </div>
                         </div>
                     </div>
@@ -182,17 +200,26 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="rounded overflow-hidden mb-2">
-                    <img class="img-fluid" src="~/img/course-2.jpg" alt="">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2" style="width: 100%; height: 200px;">
+                        <img class="img-fluid" src="~/img/course-2.jpg"
+                             alt="Esta parte contiene la imagen del curso" width="568" height="320">
+                    </div>
                     <div class="bg-secondary p-4">
                         <div class="d-flex justify-content-between mb-3">
-                            <small class="m-0"><i class="fa fa-users text-primary mr-2"></i></small>
-                            <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
+                            <small class="m-0"><i class="bi bi-bookmark-star-fill"></i> Ingles </small>
+                            <small class="m-0"><i class="bi bi-calendar-check"></i> 16/03/2023 </small>
                         </div>
-                        <a class="h5" href="">Ingles de cero a avanzado, aprende hablar como un nativo</a>
+                        <small class="m-0"><i class="far fa-clock text-primary mr-2"></i> 9 horas</small>
+                        <h6 class="m-0"><i class="bi bi-person-video2"></i> Daniel Fernando </h6>
+                        <a class="nav-link" asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index" class="h5">Ingles de cero a avanzado, aprende hablar como un nativo </a>
+                        <div>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Aprende este idioma de cero a nativo</small></h6>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Sin saberes previos</small></h6>
+                        </div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex justify-content-between">
-                                <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small></small></h6>
-                                <h5 class="m-0">$29.99</h5>
+                                <h6 class="m-0">Antes: <del>45.99$</del> </h6>
+                                <h5 class="m-0"><i class="bi bi-coin"></i> 255.99$</h5>
                             </div>
                         </div>
                     </div>
@@ -200,17 +227,26 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="rounded overflow-hidden mb-2">
-                    <img class="img-fluid" src="~/img/course-3.jpg" alt="">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2" style="width: 100%; height: 200px;">
+                        <img class="img-fluid" src="~/img/course-3.jpg"
+                             alt="Esta parte contiene la imagen del curso" width="568" height="320">
+                    </div>
                     <div class="bg-secondary p-4">
                         <div class="d-flex justify-content-between mb-3">
-                            <small class="m-0"><i class="fa fa-users text-primary mr-2"></i></small>
-                            <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
+                            <small class="m-0"><i class="bi bi-bookmark-star-fill"></i> Software </small>
+                            <small class="m-0"><i class="bi bi-calendar-check"></i> 16/03/2023 </small>
                         </div>
-                        <a class="h5" href="">Curso de super reading (aprende a leer muchos libros al mes)</a>
+                        <small class="m-0"><i class="far fa-clock text-primary mr-2"></i> 9 horas</small>
+                        <h6 class="m-0"><i class="bi bi-person-video2"></i> Daniel Fernando </h6>
+                        <a class="nav-link" asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index" class="h5">Diseño y desarrollo web de cero a avanzado (HTML CSS JS) </a>
+                        <div>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Curso de super reading (aprende a leer muchos libros al mes)</small></h6>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Sin saberes previos</small></h6>
+                        </div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex justify-content-between">
-                                <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small></small></h6>
-                                <h5 class="m-0">$15.00</h5>
+                                <h6 class="m-0">Antes: <del>45.99$</del> </h6>
+                                <h5 class="m-0"><i class="bi bi-coin"></i> 255.99$</h5>
                             </div>
                         </div>
                     </div>
@@ -218,17 +254,26 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="rounded overflow-hidden mb-2">
-                    <img class="img-fluid" src="~/img/course-4.jpg" alt="">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2" style="width: 100%; height: 200px;">
+                        <img class="img-fluid" src="~/img/course-4.jpg"
+                             alt="Esta parte contiene la imagen del curso" width="568" height="320">
+                    </div>
                     <div class="bg-secondary p-4">
                         <div class="d-flex justify-content-between mb-3">
-                            <small class="m-0"><i class="fa fa-users text-primary mr-2"></i></small>
-                            <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
+                            <small class="m-0"><i class="bi bi-bookmark-star-fill"></i> Software </small>
+                            <small class="m-0"><i class="bi bi-calendar-check"></i> 16/03/2023 </small>
                         </div>
-                        <a class="h5" href="">Desarrollo de software con metodologias agiles </a>
+                        <small class="m-0"><i class="far fa-clock text-primary mr-2"></i> 9 horas</small>
+                        <h6 class="m-0"><i class="bi bi-person-video2"></i> Daniel Fernando </h6>
+                        <a class="nav-link" asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index" class="h5">Desarrollo de software con metodologias agiles </a>
+                        <div>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Aprende este lengua de programacio de cero a profesional</small></h6>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Sin saberes previos</small></h6>
+                        </div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex justify-content-between">
-                                <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small></small></h6>
-                                <h5 class="m-0">$30.00</h5>
+                                <h6 class="m-0">Antes: <del>45.99$</del> </h6>
+                                <h5 class="m-0"><i class="bi bi-coin"></i> 255.99$</h5>
                             </div>
                         </div>
                     </div>
@@ -236,17 +281,26 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="rounded overflow-hidden mb-2">
-                    <img class="img-fluid" src="~/img/course-5.jpg" alt="">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2" style="width: 100%; height: 200px;">
+                        <img class="img-fluid" src="~/img/course-5.jpg"
+                             alt="Esta parte contiene la imagen del curso" width="568" height="320">
+                    </div>
                     <div class="bg-secondary p-4">
                         <div class="d-flex justify-content-between mb-3">
-                            <small class="m-0"><i class="fa fa-users text-primary mr-2"></i></small>
-                            <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
+                            <small class="m-0"><i class="bi bi-bookmark-star-fill"></i> Crecimiento personal </small>
+                            <small class="m-0"><i class="bi bi-calendar-check"></i> 16/03/2023 </small>
                         </div>
-                        <a class="h5" href="">Curso de habilidades blandas</a>
+                        <small class="m-0"><i class="far fa-clock text-primary mr-2"></i> 9 horas</small>
+                        <h6 class="m-0"><i class="bi bi-person-video2"></i> Daniel Fernando </h6>
+                        <a class="nav-link" asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index" class="h5">Curso de habilidades blandasCurso de habilidades blandas </a>
+                        <div>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Aprende a crecer personalmente mediante tecnicas avanzadas</small></h6>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Sin saberes previos</small></h6>
+                        </div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex justify-content-between">
-                                <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small></small></h6>
-                                <h5 class="m-0">$25.00</h5>
+                                <h6 class="m-0">Antes: <del>45.99$</del> </h6>
+                                <h5 class="m-0"><i class="bi bi-coin"></i> 255.99$</h5>
                             </div>
                         </div>
                     </div>
@@ -254,17 +308,26 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="rounded overflow-hidden mb-2">
-                    <img class="img-fluid" src="~/img/course-6.jpg" alt="">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2" style="width: 100%; height: 200px;">
+                        <img class="img-fluid" src="~/img/course-6.jpg"
+                             alt="Esta parte contiene la imagen del curso" width="568" height="320">
+                    </div>
                     <div class="bg-secondary p-4">
                         <div class="d-flex justify-content-between mb-3">
-                            <small class="m-0"><i class="fa fa-users text-primary mr-2"></i></small>
-                            <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
+                            <small class="m-0"><i class="bi bi-bookmark-star-fill"></i> Diseno Grafico </small>
+                            <small class="m-0"><i class="bi bi-calendar-check"></i> 16/03/2023 </small>
                         </div>
-                        <a class="h5" href="">Diseño grafico (aprende conceptos basicos y softwares como photoshop e illustrator)</a>
+                        <small class="m-0"><i class="far fa-clock text-primary mr-2"></i> 9 horas</small>
+                        <h6 class="m-0"><i class="bi bi-person-video2"></i> Daniel Fernando </h6>
+                        <a class="nav-link" asp-area="" asp-area="" asp-controller="CursoEstudiante" asp-action="Index" class="h5">Diseño grafico (aprende conceptos basicos y softwares como photoshop e illustrator) </a>
+                        <div>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Aprende este lengua de programacio de cero a profesional</small></h6>
+                            <h6 class="m-0"><small><i class="bi bi-check-circle"></i> Sin saberes previos</small></h6>
+                        </div>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex justify-content-between">
-                                <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small></small></h6>
-                                <h5 class="m-0">$34.98</h5>
+                                <h6 class="m-0">Antes: <del>45.99$</del> </h6>
+                                <h5 class="m-0"><i class="bi bi-coin"></i> 255.99$</h5>
                             </div>
                         </div>
                     </div>
@@ -274,57 +337,7 @@
     </div>
 </div>
 <!-- AQUI TERMINA LA SECCION DE CURSOS -->
-<!-- AQUI EMPIEZA LA SECCION DE REGISTRO -->
-<div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
-    <div class="container py-5">
-        <div class="row align-items-center">
-            <div class="col-lg-7 mb-5 mb-lg-0">
-                <div class="mb-4">
-                    <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Necesitas acceder</h5>
-                    <h1 class="text-white">30% De descuento para nuevos estudiantes</h1>
-                </div>
-                <p class="text-white">
-                    No dejes pasar esta oportunidad de mejorar tu carrera profesional aprendiendo lo que te apasiona.
-                    Esta promoción aplica solo para los nuevos estudiantes
-                </p>
-                <ul class="list-inline text-white m-0">
-                    <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>La mejor informacion</li>
-                    <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Las mejores categorias</li>
-                    <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>El mejor soporte gratuito</li>
-                </ul>
-            </div>
-            <div class="col-lg-5">
-                <div class="card border-0">
-                    <div class="card-header bg-light text-center p-4">
-                        <h1 class="m-0">¡Unete ahora!</h1>
-                    </div>
-                    <div class="card-body rounded-bottom bg-primary p-5">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control border-0 p-4" placeholder="Tu nombre" required="required" />
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control border-0 p-4" placeholder="Tu email" required="required" />
-                            </div>
-                            <div class="form-group">
-                                <select class="custom-select border-0 px-4" style="height: 47px;">
-                                    <option selected>Genero</option>
-                                    <option value="1">Hombre</option>
-                                    <option value="2">Mujer</option>
-                                    <option value="3">No binario</option>
-                                </select>
-                            </div>
-                            <div>
-                                <button class="btn btn-dark btn-block border-0 py-3" type="submit">Acceder</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- AQUI EMPIEZA LA SECCION DE REGISTRO -->
+
 <!-- AQUI EMPIEZA LA SECCION DE BLOGS -->
 <div class="container-fluid py-5">
     <div class="container pt-5 pb-3">
@@ -336,7 +349,7 @@
             <div class="col-lg-4 mb-4">
                 <div class="blog-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/blog-1.jpg" alt="">
-                    <a class="blog-overlay text-decoration-none" href="">
+                    <a class="blog-overlay text-decoration-none" asp-area="" asp-area="" asp-controller="BlogsEstudiante" asp-action="Index">
                         <h5 class="text-white mb-3">El aprendiza del futuro</h5>
                         <p class="text-primary m-0">19/02/2023</p>
                     </a>
@@ -345,7 +358,7 @@
             <div class="col-lg-4 mb-4">
                 <div class="blog-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/blog-2.jpg" alt="">
-                    <a class="blog-overlay text-decoration-none" href="">
+                    <a class="blog-overlay text-decoration-none" asp-area="" asp-area="" asp-controller="BlogsEstudiante" asp-action="Index">
                         <h5 class="text-white mb-3">El mindfullness ayuda a mejorar en todo sentido</h5>
                         <p class="text-primary m-0">19/02/2023</p>
                     </a>
@@ -354,7 +367,7 @@
             <div class="col-lg-4 mb-4">
                 <div class="blog-item position-relative overflow-hidden rounded mb-2">
                     <img class="img-fluid" src="~/img/blog-3.jpg" alt="">
-                    <a class="blog-overlay text-decoration-none" href="">
+                    <a class="blog-overlay text-decoration-none" asp-area="" asp-area="" asp-controller="BlogsEstudiante" asp-action="Index">
                         <h5 class="text-white mb-3">Trading, la forma mas dificil de hacer dinero facil</h5>
                         <p class="text-primary m-0">19/02/2023</p>
                     </a>
