@@ -25,10 +25,10 @@ namespace TeachMeAccesoADatos
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             {
                 // BD local de byron
-                options.UseSqlServer(@"Data Source=.;Initial Catalog=TeachMe;Integrated Security=True");
+               // options.UseSqlServer(@"Data Source=;Initial Catalog=TeachMe;Integrated Security=True");
 
                 // BD local de fernando
-                //options.UseSqlServer(@"Data Source=.;Initial Catalog=TeachMe;Integrated Security=True");
+                options.UseSqlServer(@"Data Source=DESKTOP-5D189V7;Initial Catalog=TeachMe;Integrated Security=True");
 
                 // BD local de daniel
                 //options.UseSqlServer(@"Data Source=.;Initial Catalog=TeachMe;Integrated Security=True");

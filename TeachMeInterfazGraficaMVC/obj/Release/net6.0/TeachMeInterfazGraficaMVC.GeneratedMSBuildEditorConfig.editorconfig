@@ -1,0 +1,269 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TeachMeInterfazGraficaMVC
+build_property.RootNamespace = TeachMeInterfazGraficaMVC
+build_property.ProjectDir = C:\Users\dfer4\Source\Repos\ByronMarinero99\TeachMe-SV-master\TeachMeInterfazGraficaMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dfer4\Source\Repos\ByronMarinero99\TeachMe-SV-master\TeachMeInterfazGraficaMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/BlogsEstudiante/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NFc3R1ZGlhbnRlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/BlogsEstudiante/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NFc3R1ZGlhbnRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Blogs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Blogs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Blogs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Blogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Blogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Categoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Categoria/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Categoria/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Categoria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CompraLibro/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhTGlicm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CompraLibro/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhTGlicm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CompraLibro/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhTGlicm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CompraLibro/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhTGlicm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CompraLibro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhTGlicm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Compras/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Compras/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Compras/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Compras/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Compras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CredencialPago/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlZGVuY2lhbFBhZ29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CredencialPago/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlZGVuY2lhbFBhZ29cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CredencialPago/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlZGVuY2lhbFBhZ29cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CredencialPago/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlZGVuY2lhbFBhZ29cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CredencialPago/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlZGVuY2lhbFBhZ29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CursoEstudiante/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29Fc3R1ZGlhbnRlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/CursoEstudiante/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29Fc3R1ZGlhbnRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Curso/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Curso/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Curso/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Curso/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Curso/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Home/InicioEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmljaW9Fc3R1ZGlhbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/LibroEstudiante/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9Fc3R1ZGlhbnRlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/LibroEstudiante/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9Fc3R1ZGlhbnRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Libros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Libros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Libros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Libros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Libros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Rol/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Rol/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Rol/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Rol/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Rol/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Usuario/CambiarPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYW1iaWFyUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dfer4/Source/Repos/ByronMarinero99/TeachMe-SV-master/TeachMeInterfazGraficaMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4jvaq20ovx

@@ -23,7 +23,16 @@ namespace TeachMeInterfazGraficaMVC.Controllers
 
         public IActionResult Index()
         {
+            if (User.IsInRole("Administrador"))
+            {
+                return View("Index");
+            }
+            else if (User.IsInRole("Usuario"))
+            {
+                return View("InicioEstudiante");
+            }
             return View();
+
         }
 
         public IActionResult Privacy()

@@ -22,8 +22,9 @@ FOREIGN KEY (IdCategorias) REFERENCES Categorias (Id),
 PRIMARY KEY (Id)
 );
 
+
 insert into Blogs (Autor, IdCategorias, Nombre, Descripcion, Contenido, FechaCreacion, ImagenDescripcion, ImagenContenido) 
-values ('Byron Marinero', '1', 'Trading en la zona','mejora tu estrategia','aqui va el contenido','15-03-2023','https://m.media-amazon.com/images/I/51A45j8MO-L._SY346_.jpg','https://d31dn7nfpuwjnm.cloudfront.net/images/valoraciones/0041/0542/Trading_foro.png?1606858162');
+values ('Byron Marinero',2, 'Trading en la zona','mejora tu estrategia','aqui va el contenido','15-03-2023','https://m.media-amazon.com/images/I/51A45j8MO-L._SY346_.jpg','https://d31dn7nfpuwjnm.cloudfront.net/images/valoraciones/0041/0542/Trading_foro.png?1606858162');
 
 GO
 CREATE TABLE Cursos(
@@ -124,8 +125,8 @@ PRIMARY KEY (Id)
 );
 
 
+select *from Usuarios;
 
+insert into Roles (Nombre) values ('Usuario');
 
-insert into Roles (Nombre) values ('Administrador');
-
-insert into Usuarios (RolId,Nombre,Apellido,[Login],[Password],Estatus,FechaRegistro) values (1,'Juan','Dominguez','jd','81ce825ec1ace3ee7cf7e92df2cc9905',1, SYSDATETIME());
+insert into Usuarios (RolId,Nombre,Apellido,[Login],[Password],Estatus,FechaRegistro) values (2,'Jose','Perez','jp','07215ef5d2943dad30887d55e0cc3074',1, SYSDATETIME());
