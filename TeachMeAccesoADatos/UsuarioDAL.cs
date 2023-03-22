@@ -167,17 +167,18 @@ namespace TeachMeAccesoADatos
             return usuarios;
         }
 
-        public static async Task<Usuario> LoginAsync(Usuario pUsuario)
-        {
-            var usuario = new Usuario();
-            using (var bdContexto = new BDContexto())
+            public static async Task<Usuario> LoginAsync(Usuario pUsuario)
             {
-                EncriptarMD5(pUsuario);
-                usuario = await bdContexto.Usuarios.FirstOrDefaultAsync(s => s.Login == pUsuario.Login &&
-                s.Password == pUsuario.Password && s.Estatus == (byte)Estatus_Usuario.ACTIVO);
-            }
+                var usuario = new Usuario();
+                using (var bdContexto = new BDContexto())
+                {
+                    EncriptarMD5(pUsuario);
+                    usuario = await bdContexto.Usuarios.FirstOrDefaultAsync(s => s.Login == pUsuario.Login &&
+                    s.Password == pUsuario.Password && s.Estatus == (byte)Estatus_Usuario.ACTIVO);
+                }
             return usuario;
-        }
+            }
+
 
         public static async Task<int> CambiarPasswordAsync(Usuario pUsuario, string pPasswordAnt)
         {
