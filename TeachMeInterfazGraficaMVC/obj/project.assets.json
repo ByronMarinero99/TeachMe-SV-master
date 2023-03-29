@@ -10078,11 +10078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
+      "projectUniqueName": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
       "projectName": "TeachMeInterfazGraficaMVC",
-      "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
+      "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
       "packagesPath": "C:\\Users\\dfer4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\obj\\",
+      "outputPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10104,11 +10104,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
-              "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
+            "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+              "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
             },
-            "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
-              "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj"
+            "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
+              "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj": {}
+    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj": {
+    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj",
+        "projectUniqueName": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj",
         "projectName": "TeachMeAccesoADatos",
-        "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj",
+        "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj",
         "packagesPath": "C:\\Users\\dfer4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeAccesoADatos\\obj\\",
+        "outputPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
+              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
         "projectName": "TeachMeEntidadesDeNegocio",
-        "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
+        "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
         "packagesPath": "C:\\Users\\dfer4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\obj\\",
+        "outputPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj": {
+    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
+        "projectUniqueName": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
         "projectName": "TeachMeInterfazGraficaMVC",
-        "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
+        "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
         "packagesPath": "C:\\Users\\dfer4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\obj\\",
+        "outputPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -163,11 +163,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
+              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
               },
-              "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj"
+              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj"
               }
             }
           }
@@ -220,14 +220,14 @@
         }
       }
     },
-    "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
+    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj",
         "projectName": "TeachMeLogicaDeNegocio",
-        "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj",
+        "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj",
         "packagesPath": "C:\\Users\\dfer4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\obj\\",
+        "outputPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -249,11 +249,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj"
+              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj"
               },
-              "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
+              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
               }
             }
           }

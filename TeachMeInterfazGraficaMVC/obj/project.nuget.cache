@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y92oIdvPz60Ta9VhB93/Dr482LboJQnERjjDCIbrR4G3GThwvKh5bTp5wIYNh1cNdJwOWHy7hzLYaJSUkOYHEA==",
+  "dgSpecHash": "5f5E+ZLawGODTLGzw8QPOyUhzXvTyJJH4pNB0Y2RW3eHe/2uyfmgYzFngU+nKP3Ew9iZm3UMIBcwVyUg9lXmhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dfer4\\source\\repos\\ByronMarinero99\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
+  "projectFilePath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dfer4\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dfer4\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
