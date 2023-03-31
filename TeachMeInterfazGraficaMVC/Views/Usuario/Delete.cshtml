@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
     List<TeachMeEntidadesDeNegocio.Rol> roles = ViewBag.Roles as List<TeachMeEntidadesDeNegocio.Rol>;
 }
-
+<div class="container">
 <h1>Modificar Usuario</h1>
 <hr />
 <form asp-action="Edit">
@@ -91,6 +91,7 @@
         </div>
     </div>
 </form>
+</div>
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

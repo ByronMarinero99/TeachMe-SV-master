@@ -5,7 +5,7 @@
     List<TeachMeEntidadesDeNegocio.Categoria> Categorias = ViewBag.Categorias as
         List<TeachMeEntidadesDeNegocio.Categoria>;
 }
-
+<div class="container">
 <hr />
 <hr />
 <h1>
@@ -37,12 +37,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Contenido" class="control-label"></label>
-                <input asp-for="Contenido" class="form-control" />
+                    <input asp-for="Contenido" class="form-control" name="comentarios" rows="10" cols="40" type="text"/>
                 <span asp-validation-for="Contenido" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="FechaCreacion" class="control-label"></label>
-                <input asp-for="FechaCreacion" class="form-control" />
+                <input asp-for="FechaCreacion" class="form-control" type="datetime" />
                 <span asp-validation-for="FechaCreacion" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -75,5 +75,6 @@
 
 <div>
     <a asp-action="Index">Regresar a la lista </a>
+</div>
 </div>
 

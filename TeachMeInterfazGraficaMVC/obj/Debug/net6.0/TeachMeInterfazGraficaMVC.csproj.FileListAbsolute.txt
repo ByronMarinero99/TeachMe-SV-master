@@ -2209,3 +2209,4 @@ C:\Users\dfer4\Desktop\TeachMe-SV-master\TeachMeInterfazGraficaMVC\obj\Debug\net
 C:\Users\dfer4\Desktop\TeachMe-SV-master\TeachMeInterfazGraficaMVC\obj\Debug\net6.0\TeachMeInterfazGraficaMVC.pdb
 C:\Users\dfer4\Desktop\TeachMe-SV-master\TeachMeInterfazGraficaMVC\obj\Debug\net6.0\TeachMeInterfazGraficaMVC.genruntimeconfig.cache
 C:\Users\dfer4\Desktop\TeachMe-SV-master\TeachMeInterfazGraficaMVC\obj\Debug\net6.0\ref\TeachMeInterfazGraficaMVC.dll
+C:\Users\byron\OneDrive\Escritorio\TeachMe-SV-master\TeachMeInterfazGraficaMVC\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll

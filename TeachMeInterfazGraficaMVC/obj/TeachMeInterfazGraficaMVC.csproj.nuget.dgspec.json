@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj": {}
+    "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj": {
+    "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj",
+        "projectUniqueName": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj",
         "projectName": "TeachMeAccesoADatos",
-        "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj",
-        "packagesPath": "C:\\Users\\dfer4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\obj\\",
+        "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj",
+        "packagesPath": "C:\\Users\\byron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeAccesoADatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dfer4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\byron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
+              "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
               }
             }
           }
@@ -70,24 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+    "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
         "projectName": "TeachMeEntidadesDeNegocio",
-        "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
-        "packagesPath": "C:\\Users\\dfer4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\obj\\",
+        "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj",
+        "packagesPath": "C:\\Users\\byron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dfer4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\byron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -96,7 +95,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,24 +128,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj": {
+    "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
+        "projectUniqueName": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
         "projectName": "TeachMeInterfazGraficaMVC",
-        "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
-        "packagesPath": "C:\\Users\\dfer4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\obj\\",
+        "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\TeachMeInterfazGraficaMVC.csproj",
+        "packagesPath": "C:\\Users\\byron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeInterfazGraficaMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dfer4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\byron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -156,18 +154,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
+              "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
               },
-              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj"
+              "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj"
               }
             }
           }
@@ -216,24 +213,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
+    "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj",
         "projectName": "TeachMeLogicaDeNegocio",
-        "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj",
-        "packagesPath": "C:\\Users\\dfer4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\obj\\",
+        "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\TeachMeLogicaDeNegocio.csproj",
+        "packagesPath": "C:\\Users\\byron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeLogicaDeNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dfer4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\byron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -242,18 +239,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj"
+              "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeAccesoADatos\\TeachMeAccesoADatos.csproj"
               },
-              "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\dfer4\\Desktop\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
+              "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\byron\\OneDrive\\Escritorio\\TeachMe-SV-master\\TeachMeEntidadesDeNegocio\\TeachMeEntidadesDeNegocio.csproj"
               }
             }
           }
@@ -283,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

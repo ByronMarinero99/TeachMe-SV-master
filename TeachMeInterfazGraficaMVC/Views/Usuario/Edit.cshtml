@@ -2,9 +2,9 @@
 
 @{
     ViewData["Title"] = "Edit";
-    List<TeachMeEntidadesDeNegocio.Rol> roles = ViewBag.Roles as List<TeachMeEntidadesDeNegocio.Rol>;
+    List<TeachMeEntidadesDeNegocio.Rol> Rol = ViewBag.Rol as List<TeachMeEntidadesDeNegocio.Rol>;
 }
-
+<div class="container">
 <h1>Modificar Usuario</h1>
 <hr />
 <form asp-action="Edit">
@@ -58,7 +58,7 @@
                 <label asp-for="RolId" class="control-label"></label>
                 <select asp-for="RolId" class="form-control">
                     <option selected value="">SELECCIONAR</option>
-                    @foreach (var item in roles)
+                    @foreach (var item in Rol)
                     {
                         if (Model.RolId == item.Id)
                         {
@@ -91,6 +91,7 @@
         </div>
     </div>
 </form>
+</div>
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

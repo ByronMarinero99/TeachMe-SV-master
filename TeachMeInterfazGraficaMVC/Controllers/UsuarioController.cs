@@ -72,7 +72,7 @@ namespace TeachMeInterfazGraficaMVC.Controllers
 
             var taskObtenerTodosRoles = rolBL.ObtenerTodosAsync();
             var usuario = await usuarioBL.ObtenerPorIdAsync(pUsuario);
-            ViewBag.Roles = await usuarioBL.ObtenerPorIdAsync(pUsuario);
+            ViewBag.Rol = await usuarioBL.ObtenerPorIdAsync(pUsuario);
             ViewBag.Error = "";
             return View(usuario);
         }
@@ -90,7 +90,7 @@ namespace TeachMeInterfazGraficaMVC.Controllers
             catch (Exception ex)
             {
                 ViewBag.Error = ex.Message;
-                ViewBag.Roles = await rolBL.ObtenerTodosAsync();
+                ViewBag.Rol = await rolBL.ObtenerTodosAsync();
                 return View(pUsuario);
             }
         }
